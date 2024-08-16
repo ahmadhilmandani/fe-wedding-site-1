@@ -1,3 +1,46 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply leading-[150%] text-cust-brown-color;
+  }
+  :not(h1, h2, h3, h4, h5, h6, button) {
+    font-family: "Forum", serif;
+    @apply text-[16px] sm:max-xl:text-[24px];
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Italianno", cursive;
+  }
+
+  h1,
+  .custom-heading-2 {
+    @apply text-[48px] sm:max-xl:text-[80px];
+  }
+
+  h2 {
+    @apply text-[40px] sm:max-xl:text-[68px];
+  }
+
+  h3 {
+    @apply text-[32px] sm:max-xl:text-[56px];
+  }
+
+  .custom-heading-1 {
+    font-family: "Playfair Display", serif;
+    @apply xl:text-[56px] text-[40px] sm:max-xl:text-[80px] font-bold;
+  }
+
+  .custom-heading-2, button {
+    font-family: "Playfair Display", serif;
+    @apply font-bold;
+
+  }
+}
