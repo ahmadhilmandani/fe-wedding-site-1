@@ -1,6 +1,7 @@
 import Invitaion from './section/Invitaion'
 import Landing from './section/Landing'
 import OpeningWord from './section/OpeningWord'
+import WeddingDate from './section/WeddingDate'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Landing />
       <OpeningWord />
       <Invitaion />
+      <WeddingDate />
     </div>
   )
 }
