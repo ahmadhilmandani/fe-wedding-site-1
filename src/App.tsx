@@ -3,6 +3,7 @@ import Landing from './section/Landing'
 import LoveStory from './section/LoveStory'
 import OpeningWord from './section/OpeningWord'
 import RSVP from './section/RSVP'
+import UserPrayer from './section/UserPrayer'
 import WeddingDate from './section/WeddingDate'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <WeddingDate />
       <LoveStory />
       <RSVP />
+      <UserPrayer />
     </div>
   )
 }
