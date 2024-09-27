@@ -26,7 +26,7 @@ export default function OpeningWord() {
             </div>
           </div>
           <h1 className="text-center text-cust-red-color font-medium mb-2">Rafiqoh Yassar Hafizhah</h1>
-          <p className="text-center">Putri dari Bpk. Akhmad Supriyadi Ibu. Elya Ulfa (Rahimahullah)</p>
+          <p className="text-center">Putri dari Bpk. Akhmad Supriyadi Ibu. Elya Ulfa (Rahimahaallah)</p>
         </div>
       </section>
     </>
