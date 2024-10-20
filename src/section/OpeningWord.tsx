@@ -16,8 +16,8 @@ export default function OpeningWord() {
             Ya Allah perkenankan kami
             untuk melaksanakan pernikahan kami...
           </p>
-          <h1 className="text-center text-cust-red-color font-medium mb-2">Fikri Ilham Abdullah</h1>
-          <p className="text-center">Putra dari Bpk. Moh Zainullah Ibu Nur Hidayati</p>
+          <h1 className="text-center text-cust-red-color font-medium mb-2">Rafiqoh Yassar Hafizhah</h1>
+          <p className="text-center">Putri dari Bpk. Akhmad Supriyadi Ibu. Elya Ulfa (Rahimahaallah)</p>
           <div className="my-8 flex justify-center items-center gap-4">
             <div className="w-[25%] h-[1px] bg-cust-blue-color">
             </div>
@@ -25,8 +25,8 @@ export default function OpeningWord() {
             <div className="w-[25%] h-[1px] bg-cust-blue-color">
             </div>
           </div>
-          <h1 className="text-center text-cust-red-color font-medium mb-2">Rafiqoh Yassar Hafizhah</h1>
-          <p className="text-center">Putri dari Bpk. Akhmad Supriyadi Ibu. Elya Ulfa (Rahimahaallah)</p>
+          <h1 className="text-center text-cust-red-color font-medium mb-2">Fikri Ilham Abdullah</h1>
+          <p className="text-center">Putra dari Bpk. Moh Zainullah Ibu Nur Hidayati</p>
         </div>
       </section>
     </>
