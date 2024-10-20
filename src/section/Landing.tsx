@@ -23,13 +23,23 @@ export default function Landing() {
         <div className="max-w-[640px] w-full relative z-50">
           <h1 className="text-center text-cust-red-color font-medium mb-2">Pernikahan</h1>
           <div className="custom-heading-1 text-center">
-          Rafiqoh & Fikri  
+            Rafiqoh & Fikri
           </div>
-          <div className="text-center mb-6">
-            04 JANUARI 2025
+          <div className="flex justify-center gap-5 text-center mb-6">
+            <div>
+              AHAD, 12 JANUARI 2025
+            </div>
+            <div>
+              ·
+            </div>
+            <div>
+              NK Cafe Karangploso
+            </div>
           </div>
           <div className="w-40 mx-auto">
-            <Button>
+            <Button propOnClick={() => {
+              window.location.href = 'https://maps.app.goo.gl/JwKCLxNSVpKJVixp6'
+            }}>
               RSVP DI SINI
             </Button>
           </div>

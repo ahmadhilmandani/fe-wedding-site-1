@@ -3,8 +3,34 @@ import WhiteFlower from "../assets/img/white-flower.png"
 import LeafThree from "../assets/img/leaf-3.png"
 import WatercolorBlue from "../assets/img/watercolor-blue-dark.png"
 import BlueFlowerOne from "../assets/img/blue-flower-1.png"
+import { useState } from "react"
 
 export default function WeddingDate() {
+  const [targetDate] = useState(new Date("January 12, 2025 00:00:00").getTime())
+  const [days, setDays] = useState(0)
+  const [hours, setHours] = useState(0)
+  const [minutes, setMinutes] = useState(0)
+  const [seconds, setSeconds] = useState(0)
+
+  function countdown() {
+  
+    // Perbarui countdown setiap detik
+    setInterval(function () {
+      const now = new Date().getTime();
+      const distance = targetDate - now;
+  
+      // Hitung waktu yang tersisa
+      setDays(Math.floor(distance / (1000 * 60 * 60 * 24)))
+      setHours(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)))
+      setMinutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
+      setSeconds(Math.floor((distance % (1000 * 60)) / 1000));
+
+
+    }, 1000)
+  }
+
+  countdown()
+  
   return (
     <>
       <section className="w-full min-h-screen flex justify-center items-center relative">
@@ -24,13 +50,13 @@ export default function WeddingDate() {
             Tanggal Pernikahan
           </h1>
           <strong className="block custom-heading-1 text-center mb-5">
-            04 Januari 2025
+            12 Januari 2025
           </strong>
 
           <div className="flex justify-center gap-4 mb-10 mx-auto">
             <div className="w-[20%] aspect-square flex flex-col justify-center items-center border border-cust-brown-color">
               <div className="xl:text-2xl">
-                3
+                {Math.abs(days)}
               </div>
               <div className="xl:text-2xl">
                 Hari
@@ -38,7 +64,7 @@ export default function WeddingDate() {
             </div>
             <div className="w-[20%] aspect-square flex flex-col justify-center items-center border border-cust-brown-color">
               <div className="xl:text-2xl">
-                13
+              {Math.abs(hours)}
               </div>
               <div className="xl:text-2xl">
                 Jam
@@ -46,7 +72,7 @@ export default function WeddingDate() {
             </div>
             <div className="w-[20%] aspect-square flex flex-col justify-center items-center border border-cust-brown-color">
               <div className="xl:text-2xl">
-                43
+              {Math.abs(minutes)}
               </div>
               <div className="xl:text-2xl">
                 Menit
@@ -54,7 +80,7 @@ export default function WeddingDate() {
             </div>
             <div className="w-[20%] aspect-square flex flex-col justify-center items-center border border-cust-brown-color">
               <div className="xl:text-2xl">
-                4
+              {Math.abs(seconds)}
               </div>
               <div className="xl:text-2xl">
                 Detik
