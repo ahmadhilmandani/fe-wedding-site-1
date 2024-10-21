@@ -89,7 +89,9 @@ export default function WeddingDate() {
 
           </div>
           <div className="w-40 mx-auto">
-            <Button>
+            <Button propOnClick={() => {
+              window.location.href = 'https://maps.app.goo.gl/JwKCLxNSVpKJVixp6'
+            }}>
               RSVP DI SINI
             </Button>
           </div>
