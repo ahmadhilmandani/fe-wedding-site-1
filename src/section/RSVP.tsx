@@ -33,7 +33,7 @@ export default function RSVP() {
             <input type="number" className="block w-full pb-3 outline-none ring-0 border-b border-cust-brown-color focus:border-cust-blue-color bg-transparent" name="numOfGuest" id="numOfGuest" />
           </div>
           <div className="w-40 mx-auto">
-            <Button>
+            <Button propOnClick={()=>{console.log("tes")}}>
               RSVP
             </Button>
           </div>

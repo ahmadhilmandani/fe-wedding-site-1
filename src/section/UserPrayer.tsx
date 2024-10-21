@@ -12,7 +12,7 @@ export default function UserPrayer() {
           </p>
           <textarea name="" id="" className="block w-full p-4 outline-none ring-0 border border-cust-brown-color focus:border-cust-blue-color bg-transparent m-8 mx-auto"></textarea>
           <div className="w-40 mx-auto">
-            <Button>
+            <Button propOnClick={()=>{console.log("prop")}}>
               KIRIM DO'A
             </Button>
           </div>
