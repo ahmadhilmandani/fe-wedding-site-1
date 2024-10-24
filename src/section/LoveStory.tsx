@@ -24,9 +24,7 @@ export default function LoveStory() {
                   Ta’ruf
                 </h2>
                 <p>
-                  Kami memang mengalami berbagai rintangan selama menjalin hubungan. Namun, setiap cobaan dan tantangan yang kami alami selama lima tahun belakangan ini justru membuat hubungan kami lebih indah.
-                  <br />
-                  Kami terus melihat kebaikan dalam segala hal dan terus melangkah. Sekarang, kami siap melangkah dan memulai hidup baru bersama.
+                  Tidak ada yang kebetulan di dunia ini semua telah tersusun rapi dengan apa yang sudah Allah Ta'ala takdirkan. Perkenalan pertama kali di bulan Februari melalui perantara ustadz/ustadzah kami yang mana kami memang belum mengenal satu sama lain sebelumnya.
                 </p>
               </div>
             </div>
@@ -41,9 +39,7 @@ export default function LoveStory() {
                   Nadhor
                 </h2>
                 <p>
-                  Kami memang mengalami berbagai rintangan selama menjalin hubungan. Namun, setiap cobaan dan tantangan yang kami alami selama lima tahun belakangan ini justru membuat hubungan kami lebih indah.
-                  <br />
-                  Kami terus melihat kebaikan dalam segala hal dan terus melangkah. Sekarang, kami siap melangkah dan memulai hidup baru bersama.
+                  Kehendak-Nya menuntun kami pada suatu pertemuan yang tak pernah disangka dengan penuh keyakinan di dalam hati kami untuk menikah, hingga akhirnya Allah Ta'ala takdirkan kami bertemu dikehidupan nyata untuk pertama kalinya.
                 </p>
               </div>
             </div>
@@ -55,12 +51,10 @@ export default function LoveStory() {
               </div>
               <div>
                 <h2 className="custom-heading-2 mb-3">
-                  Nadhor
+                  Khitbah
                 </h2>
                 <p>
-                  Kami memang mengalami berbagai rintangan selama menjalin hubungan. Namun, setiap cobaan dan tantangan yang kami alami selama lima tahun belakangan ini justru membuat hubungan kami lebih indah.
-                  <br />
-                  Kami terus melihat kebaikan dalam segala hal dan terus melangkah. Sekarang, kami siap melangkah dan memulai hidup baru bersama.
+                  Takdir mengungkap hal-hal yang tidak pernah terpikirkan sebelumnya seperti halnya pernikahan kami, sebagaimana rizki telah tercatat dan ditakdirkan dengan sebab-sebabnya, demikian pula pernikahan telah tercatat dan ditakdirkan.
                 </p>
               </div>
             </div>
@@ -75,9 +69,7 @@ export default function LoveStory() {
                   Akad & Resepsi
                 </h2>
                 <p>
-                  Kami memang mengalami berbagai rintangan selama menjalin hubungan. Namun, setiap cobaan dan tantangan yang kami alami selama lima tahun belakangan ini justru membuat hubungan kami lebih indah.
-                  <br />
-                  Kami terus melihat kebaikan dalam segala hal dan terus melangkah. Sekarang, kami siap melangkah dan memulai hidup baru bersama.
+                  Percayalah, bukan karena bertemu lalu berjodoh tapi karena berjodohlah kami dipertemukan, bahkan tanpa sebuah tali janji dan ikatan Allah Ta'ala mampu menautkan hati-hati kami hanya dalam satu kali pertemuan.
                 </p>
               </div>
             </div>
