@@ -23,7 +23,7 @@ export default function Landing() {
         <div className="max-w-[640px] w-full relative z-50">
           <h1 className="text-center text-cust-red-color font-medium mb-2">Pernikahan</h1>
           <div className="custom-heading-1 text-center">
-            Rafiqoh & Fikri
+            Rafiqah & Fikri
           </div>
           <div className="flex justify-center gap-5 text-center mb-6">
             <div>

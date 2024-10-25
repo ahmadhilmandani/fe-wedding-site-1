@@ -16,7 +16,7 @@ export default function OpeningWord() {
             Ya Allah perkenankan kami
             untuk melaksanakan pernikahan kami...
           </p>
-          <h1 className="text-center text-cust-red-color font-medium mb-2">Rafiqoh Yassar Hafizhah</h1>
+          <h1 className="text-center text-cust-red-color font-medium mb-2">Rafiqah Yassar Hafizhah</h1>
           <p className="text-center">Putri dari Bpk. Akhmad Supriyadi Ibu. Elya Ulfa (Rahimahaallah)</p>
           <div className="my-8 flex justify-center items-center gap-4">
             <div className="w-[25%] h-[1px] bg-cust-blue-color">

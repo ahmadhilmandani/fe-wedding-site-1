@@ -62,7 +62,7 @@ export default function LoveStory() {
               <div>
                 10 & 12 Jan
                 <br />
-                2024
+                2025
               </div>
               <div>
                 <h2 className="custom-heading-2 mb-3">

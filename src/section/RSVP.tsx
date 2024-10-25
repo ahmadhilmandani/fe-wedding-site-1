@@ -7,7 +7,7 @@ export default function RSVP() {
         <div className="max-w-[640px] w-full relative z-50">
           <h1 className="text-center mb-3 text-cust-red-color">RSVP Kehadiran</h1>
           <p className="mb-10 text-center">
-            Dengan hormat kami harap kesediaannya untuk RSVP kehadiran dengan mengisi <i>form</i> di bawah ini,
+            Dengan hormat kami harap kesediaannya untuk RSVP kehadiran dengan mengisi <i className="inline-block">form</i> di bawah ini,
           </p>
           <div className="mb-14">
             <label htmlFor="name" className="block mb-2 text-center font-bold">Nama</label>

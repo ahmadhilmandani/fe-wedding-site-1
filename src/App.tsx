@@ -21,15 +21,15 @@ function App() {
         playing={playNasheed}
         loop={false}
       />
-      <div className='size-12 fixed bottom-6 right-6 border border-cust-blue-color p-2 flex justify-center items-center rounded-full z-[1000000000000000000] cursor-pointer bg-cust-bg-light-brown-color hover:bg-cust-very-light-blue-color'>
+      <div className='size-12 fixed bottom-6 right-6 border border-cust-blue-color p-2 flex justify-center items-center rounded-full z-[1000000000000000000] cursor-pointer bg-cust-bg-light-brown-color hover:bg-cust-very-light-blue-color'
+      onClick={() => {
+        setPlayNasheed(!playNasheed)
+      }}
+      >
         {playNasheed ?
-          <IconPlayerPlayFilled className='fill-cust-blue-color' onClick={() => {
-            setPlayNasheed(false)
-          }} />
+          <IconPlayerPlayFilled className='fill-cust-blue-color' />
           :
-          <IconPlayerPauseFilled className='fill-cust-blue-color' onClick={() => {
-            setPlayNasheed(true)
-          }} />
+          <IconPlayerPauseFilled className='fill-cust-blue-color' />
         }
       </div>
       <Landing />
