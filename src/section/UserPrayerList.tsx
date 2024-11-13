@@ -21,8 +21,8 @@ export default function UserPrayerList() {
         <div className="max-w-[720px] w-full relative z-50">
           <h1 className="text-center mb-4 text-cust-red-color">Terima Kasih Atas Do'a terbaiknya untuk kami..💖</h1>
           {
-            prayerList.data ? 
-              prayerList?.data.map((val) => {
+            prayerList ? 
+              prayerList?.map((val) => {
                 return (
                   <PrayerListCard propUserName={val.guest_name} propIsAttendParty={val.is_attend_party} propCreatedAt={val.created_at} >
                     {val.guest_prayer}
