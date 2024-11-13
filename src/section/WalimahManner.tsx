@@ -3,7 +3,7 @@ import { IconBuildingMosque, IconCameraOff, IconHeartFilled, IconShirtFilled, Ic
 export default function LoveStory() {
   return (
     <section className="w-full min-h-screen flex justify-center items-center relative my-10">
-      <div className="max-w-[640px] w-full relative z-50">
+      <div className="max-w-[720px] w-full relative z-50">
         <h1 className="text-cust-red-color mb-10 text-center mt-10">
           Adab Walimah
         </h1>

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import Button from "../components/Button"
 import BlueFlowerTwo from "../assets/img/blue-flower-2.png"
 import leafOne from "../assets/img/leaf-1.png"
@@ -8,6 +9,7 @@ import waterColorBlueLight from "../assets/img/watercolor-blue-light.png"
 import waterColorBlueDark from "../assets/img/watercolor-blue-dark.png"
 
 
+// /like-auth
 export default function Landing() {
   return (
     <>
@@ -20,7 +22,7 @@ export default function Landing() {
         <img src={leafThree} alt="" className="absolute top-[50px] xl:top-[80px] left-[-155px] xl:left-[-125px] rotate-[160deg] z-[1] opacity-30 xl:w-96" />
         <img src={waterColorBlueLight} alt="" className="hidden xl:block absolute top-[-190px] right-[-150px] z-[0.5] opacity-75 w-[640px]" />
 
-        <div className="max-w-[640px] w-full relative z-50">
+        <div className="max-w-[720px] w-full relative z-50">
           <h1 className="text-center text-cust-red-color font-medium mb-2">Pernikahan</h1>
           <div className="custom-heading-1 text-center">
             Rafiqah & Fikri
@@ -38,7 +40,7 @@ export default function Landing() {
           </div>
           <div className="w-40 mx-auto">
             <Button propOnClick={() => {
-              window.location.href = 'https://maps.app.goo.gl/JwKCLxNSVpKJVixp6'
+              window.location.href = '#rsvp-kehadiran'
             }}>
               RSVP DI SINI
             </Button>

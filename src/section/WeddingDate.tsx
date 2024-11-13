@@ -45,7 +45,7 @@ export default function WeddingDate() {
 
         <img src={WatercolorBlue} alt="" className="block xl:hidden absolute z-[1] mx-auto left-0 right-0 w-[640px]" />
 
-        <div className="max-w-[640px] w-full relative z-50">
+        <div className="max-w-[720px] w-full relative z-50">
           <h1 className="text-cust-red-color text-center">
             Tanggal Pernikahan
           </h1>
@@ -90,7 +90,7 @@ export default function WeddingDate() {
           </div>
           <div className="w-40 mx-auto">
             <Button propOnClick={() => {
-              window.location.href = 'https://maps.app.goo.gl/JwKCLxNSVpKJVixp6'
+              window.location.href = '#rsvp-kehadiran'
             }}>
               RSVP DI SINI
             </Button>

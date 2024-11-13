@@ -1,4 +1,3 @@
-
 import WatercolorBlue from "../assets/img/watercolor-blue-dark.png"
 import WatercolorBlueLight from "../assets/img/watercolor-blue-light.png"
 
@@ -7,7 +6,7 @@ export default function LoveStory() {
     <>
       <section className="w-full min-h-screen flex justify-center items-center relative">
         <img src={WatercolorBlue} alt="" className="block absolute z-[1] top-[40px] left-[-180px] w-[640px]" />
-        <div className="max-w-[640px] w-full relative z-50">
+        <div className="max-w-[720px] w-full relative z-50">
           <h1 className="text-cust-red-color mb-10 text-center mt-10">
             Love Story
           </h1>

@@ -7,7 +7,7 @@ export default function OpeningWord() {
       <section className="w-full min-h-screen flex justify-center items-center relative">
         <img src={waterColorBlueLight} alt="" className="block absolute bottom-[-180px] right-[-250px] rotate-45 z-[0.5] opacity-75 w-[640px]" />
 
-        <div className="max-w-[640px] w-full relative z-50">
+        <div className="max-w-[720px] w-full relative z-50">
           <p className="text-center mb-5">
             Assalamualaikum Warahmatullah Wabarakaatuh.....
             <br />

@@ -5,7 +5,7 @@ export default function Invitaion() {
   return (
     <>
       <section className="w-full min-h-screen flex justify-center items-center relative">
-        <div className="max-w-[640px] w-full relative z-50">
+        <div className="max-w-[720px] w-full relative z-50">
           <p className="text-center mb-8">
             Dengan memohon rahmat dan ridho Allah Subhanahu Wa Ta'ala, Kami mengundang Bapak/Ibu/Saudara/i, untuk menghadiri Resepsi Pernikahan kami. yang Insya Allah akan dilaksanakan pada :
           </p>
