@@ -80,8 +80,8 @@ export default function RSVP({guest_name, guest_key}: {guest_name: string, guest
 
           <h1 className="text-center mb-4 text-cust-red-color">Mohon Do'a Restu...</h1>
           <p className="mb-2 text-center">
-            Kami harap, hadirin sekalian dapat memberikan doa terbaik bagi acara berbahagia kami ini dengan mengisi <i>form</i>
-            di bawah
+            Kami harap, hadirin sekalian dapat memberikan doa terbaik bagi acara berbahagia kami ini dengan mengisi
+            <i className="inline-block">form</i> di bawah
           </p>
           <textarea name="" id="" className="block w-full p-4 outline-none ring-0 border border-cust-brown-color focus:border-cust-blue-color bg-transparent m-8 mx-auto" onChange={(e) => {
             setGuestPrayer(e.target.value)
