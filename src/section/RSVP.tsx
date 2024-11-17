@@ -18,7 +18,7 @@ export default function RSVP({guest_name, guest_key}: {guest_name: string, guest
         guest_prayer: guestPrayer
       }
     ).then(() => {
-      toast.success('Terima Kasih telah Konfirmasi🙏!', {
+      toast.success('Jazakumullah Khaiir telah Konfirmasi🙏!', {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,

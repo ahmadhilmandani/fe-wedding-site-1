@@ -45,7 +45,7 @@ function App() {
       }
     ).then((res: AxiosResponse<typeGuestData>)  => {
       setGuestData(res.data)
-      toast.success('Terima Kasih telah membuka undangan kami🙏!', {
+      toast.success('Jazakumullah Khaiir telah membuka undangan kami🙏!', {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,

@@ -19,7 +19,7 @@ export default function UserPrayerList() {
     <>
       <section className="w-full min-h-screen flex justify-center items-center relative mt-12">
         <div className="max-w-[720px] w-full relative z-50">
-          <h1 className="text-center mb-4 text-cust-red-color">Terima Kasih Atas Do'a terbaiknya untuk kami..💖</h1>
+          <h1 className="text-center mb-4 text-cust-red-color">Jazakumullah Khaiir Atas Do'a terbaiknya untuk kami..💖</h1>
           {
             prayerList ? 
               prayerList?.map((val) => {

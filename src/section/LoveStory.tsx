@@ -20,7 +20,7 @@ export default function LoveStory() {
               </div>
               <div className="mb-10">
                 <h2 className="custom-heading-2 mb-3">
-                  Ta’ruf
+                  Ta’aruf
                 </h2>
                 <p>
                   Tidak ada yang kebetulan di dunia ini semua telah tersusun rapi dengan apa yang sudah Allah Ta'ala takdirkan. Perkenalan pertama kali di bulan Februari melalui perantara ustadz/ustadzah kami yang mana kami memang belum mengenal satu sama lain sebelumnya.
