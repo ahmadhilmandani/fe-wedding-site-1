@@ -17,8 +17,8 @@ import { useState, useEffect } from 'react'
 import axios, { AxiosResponse } from "axios"
 import { IconMailOpenedFilled } from "@tabler/icons-react"
 import Button from './components/Button.tsx'
-import WatercolorBlue from "./assets/img/watercolor-blue-dark.png"
-import WatercolorBlueLight from "./assets/img/watercolor-blue-light.png"
+import WatercolorBlue from "./assets/img/watercolor-blue-dark.webp"
+import WatercolorBlueLight from "./assets/img/watercolor-blue-light.webp"
 import 'react-toastify/dist/ReactToastify.css';
 import { Bounce, toast, ToastContainer } from 'react-toastify'
 
@@ -38,7 +38,7 @@ function App() {
 
   function openInvitation() {
     setIsLoading(true)
-    axios.post(import.meta.env.VITE_PROD_API_BASE_URL + "/like-auth",
+    axios.post(import.meta.env.VITE_DEV_API_BASE_URL + "/like-auth",
       {
         guest_key: guestKey,
         guest_name: decodeURIComponent(guestNameByParam)
@@ -122,7 +122,7 @@ function App() {
         :
         <>
           <div className='bg-cust-bg-light-brown-color p-4 overflow-hidden relative'>
-            <ReactHowler
+            {/* <ReactHowler
               src={Nashed}
               playing={playNasheed}
               loop={false}
@@ -137,7 +137,7 @@ function App() {
                 :
                 <IconPlayerPauseFilled className='fill-cust-blue-color' />
               }
-            </div>
+            </div> */}
             <Landing />
             <OpeningWord />
             <Invitaion />

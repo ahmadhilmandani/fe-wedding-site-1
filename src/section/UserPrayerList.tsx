@@ -9,7 +9,7 @@ export default function UserPrayerList() {
   const [prayerList, setPrayerList] = useState()
 
   useEffect(() => {
-    axios.get(import.meta.env.VITE_PROD_API_BASE_URL + "/rsvp/1"
+    axios.get(import.meta.env.VITE_DEV_API_BASE_URL + "/rsvp/1"
     ).then((res) => {
       setPrayerList(res.data.data)
     })
@@ -22,9 +22,9 @@ export default function UserPrayerList() {
           <h1 className="text-center mb-4 text-cust-red-color">Jazakumullah Khaiir Atas Do'a terbaiknya untuk kami..💖</h1>
           {
             prayerList ? 
-              prayerList?.map((val) => {
+              prayerList?.map((val, index) => {
                 return (
-                  <PrayerListCard propUserName={val.guest_name} propIsAttendParty={val.is_attend_party} propCreatedAt={val.created_at} >
+                  <PrayerListCard key={index} propUserName={val.guest_name} propIsAttendParty={val.is_attend_party} propCreatedAt={val.created_at} >
                     {val.guest_prayer}
                   </PrayerListCard>
                 )

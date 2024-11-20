@@ -1,15 +1,20 @@
-import WatercolorBlue from "../assets/img/watercolor-blue-dark.png"
-import WatercolorBlueLight from "../assets/img/watercolor-blue-light.png"
+import { useRef } from "react"
+import WatercolorBlue from "../assets/img/watercolor-blue-dark.webp"
+import WatercolorBlueLight from "../assets/img/watercolor-blue-light.webp"
+import { motion, useInView } from "motion/react"
 
 export default function LoveStory() {
+  const ref = useRef(null)
+  const isInView = useInView(ref)
+
   return (
     <>
-      <section className="w-full min-h-screen flex justify-center items-center relative">
-        <img src={WatercolorBlue} alt="" className="block absolute z-[1] top-[40px] left-[-180px] w-[640px]" />
+      <section ref={ref} className="w-full min-h-screen flex justify-center items-center relative">
+        <img animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }}    src={WatercolorBlue} alt="" className="block absolute z-[1] top-[40px] left-[-180px] w-[640px]" />
         <div className="max-w-[720px] w-full relative z-50">
-          <h1 className="text-cust-red-color mb-10 text-center mt-10">
+          <motion.h1 animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }}   className="text-cust-red-color mb-10 text-center mt-10">
             Love Story
-          </h1>
+          </motion.h1>
 
           <div className="border-l border-cust-brown-color pl-5">
             <div className="flex gap-8">
