@@ -38,15 +38,15 @@ export default function WeddingDate() {
   return (
     <>
       <section ref={ref} className="w-full min-h-screen flex justify-center items-center relative">
-        <img animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }} src={BlueFlowerOne} alt="" className="hidden xl:block absolute top-0 left-[-180px] rotate-[40deg] z-[3] xl:w-[420px]" />
-        <img animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }} src={WhiteFlower} alt="" className="hidden xl:block absolute top-[200px] left-[-200px] rotate-[-195deg] z-[2] xl:w-[500px]" />
-        <img animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }} src={LeafThree} alt="" className="hidden xl:block absolute top-[140px] left-[-100px] z-[1] rotate-[5deg] xl:w-[400px] opacity-50" />
+        <img src={BlueFlowerOne} alt="" className="hidden xl:block absolute top-0 left-[-180px] rotate-[40deg] z-[3] xl:w-[420px]" />
+        <img src={WhiteFlower} alt="" className="hidden xl:block absolute top-[200px] left-[-200px] rotate-[-195deg] z-[2] xl:w-[500px]" />
+        <img src={LeafThree} alt="" className="hidden xl:block absolute top-[140px] left-[-100px] z-[1] rotate-[5deg] xl:w-[400px] opacity-50" />
 
 
-        <img animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }} src={WhiteFlower} alt="" className="block xl:hidden absolute top-0 left-[-120px] rotate-[60deg] z-[2]" />
-        <img animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }} src={LeafThree} alt="" className="block xl:hidden absolute top-0 left-[-20px] rotate-[85deg] z-[1] opacity-50" />
+        <img src={WhiteFlower} alt="" className="block xl:hidden absolute top-0 left-[-120px] rotate-[60deg] z-[2]" />
+        <img src={LeafThree} alt="" className="block xl:hidden absolute top-0 left-[-20px] rotate-[85deg] z-[1] opacity-50" />
 
-        <img animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }} src={WatercolorBlue} alt="" className="block xl:hidden absolute z-[1] mx-auto left-0 right-0 w-[640px]" />
+        <img src={WatercolorBlue} alt="" className="block xl:hidden absolute z-[1] mx-auto left-0 right-0 w-[640px]" />
 
         <div className="max-w-[720px] w-full relative z-50">
           <motion.h1 animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }} className="text-cust-red-color text-center">
@@ -101,13 +101,13 @@ export default function WeddingDate() {
         </div>
 
         
-        <img animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }} src={BlueFlowerOne} alt="" className="hidden xl:block absolute top-0 right-[-180px] rotate-[20deg] z-[3] xl:w-[420px]" />
-        <img animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }} src={WhiteFlower} alt="" className="hidden xl:block absolute top-[200px] right-[-200px] rotate-[200deg] z-[2] xl:w-[500px]" />
-        <img animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }} src={LeafThree} alt="" className="hidden xl:block absolute top-[140px] right-[-100px] z-[1] rotate-[-25deg] xl:w-[400px] opacity-50" />
+        <img src={BlueFlowerOne} alt="" className="hidden xl:block absolute top-0 right-[-180px] rotate-[20deg] z-[3] xl:w-[420px]" />
+        <img src={WhiteFlower} alt="" className="hidden xl:block absolute top-[200px] right-[-200px] rotate-[200deg] z-[2] xl:w-[500px]" />
+        <img src={LeafThree} alt="" className="hidden xl:block absolute top-[140px] right-[-100px] z-[1] rotate-[-25deg] xl:w-[400px] opacity-50" />
 
 
-        <img animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }} src={WhiteFlower} alt="" className="block xl:hidden absolute bottom-[-75px] right-[-120px] rotate-[-120deg] z-[2]" />
-        <img animate={{ opacity: isInView ? 1 : 0, y: isInView ? "0px" : "15px" }} transition={{ duration: 0.8, ease: "easeOut" }} src={LeafThree} alt="" className="block xl:hidden absolute bottom-[-60px] right-[10px] rotate-[-85deg] z-[1] opacity-50" />
+        <img src={WhiteFlower} alt="" className="block xl:hidden absolute bottom-[-75px] right-[-120px] rotate-[-120deg] z-[2]" />
+        <img src={LeafThree} alt="" className="block xl:hidden absolute bottom-[-60px] right-[10px] rotate-[-85deg] z-[1] opacity-50" />
 
       </section>
     </>
