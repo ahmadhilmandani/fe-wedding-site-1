@@ -122,7 +122,7 @@ function App() {
         :
         <>
           <div className='bg-cust-bg-light-brown-color p-4 overflow-hidden relative'>
-            {/* <ReactHowler
+            <ReactHowler
               src={Nashed}
               playing={playNasheed}
               loop={false}
@@ -137,7 +137,7 @@ function App() {
                 :
                 <IconPlayerPauseFilled className='fill-cust-blue-color' />
               }
-            </div> */}
+            </div>
             <Landing />
             <OpeningWord />
             <Invitaion />
