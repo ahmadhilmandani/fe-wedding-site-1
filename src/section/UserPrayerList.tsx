@@ -9,7 +9,7 @@ export default function UserPrayerList() {
   const [prayerList, setPrayerList] = useState()
 
   useEffect(() => {
-    axios.get(import.meta.env.VITE_DEV_API_BASE_URL + "/rsvp/1"
+    axios.get(import.meta.env.VITE_PROD_API_BASE_URL + "/rsvp/1"
     ).then((res) => {
       setPrayerList(res.data.data)
     })

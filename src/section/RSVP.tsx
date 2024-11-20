@@ -13,7 +13,7 @@ export default function RSVP({guest_name, guest_key}: {guest_name: string, guest
 
   function submitRSVP() {
     setIsLoading(true)
-    axios.post(import.meta.env.VITE_DEV_API_BASE_URL + "/rsvp",
+    axios.post(import.meta.env.VITE_PROD_API_BASE_URL + "/rsvp",
       {
         guest_key: guest_key,
         is_attend_party: isAttend,

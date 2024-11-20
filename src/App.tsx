@@ -38,7 +38,7 @@ function App() {
 
   function openInvitation() {
     setIsLoading(true)
-    axios.post(import.meta.env.VITE_DEV_API_BASE_URL + "/like-auth",
+    axios.post(import.meta.env.VITE_PROD_API_BASE_URL + "/like-auth",
       {
         guest_key: guestKey,
         guest_name: decodeURIComponent(guestNameByParam)
