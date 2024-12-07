@@ -6,13 +6,28 @@ import { motion, useInView } from "motion/react"
 
 export default function RSVP({guest_name, guest_key}: {guest_name: string, guest_key: number}) {
   const [isLoading, setIsLoading] = useState(false)
-  const [isAttend, setIsAttend] = useState(false)
+  const [isAttend, setIsAttend] = useState<boolean | null>(null)
   const [guestPrayer, setGuestPrayer] = useState('')
   const ref = useRef(null)
   const isInView = useInView(ref)
 
   function submitRSVP() {
     setIsLoading(true)
+    if (!isAttend) {
+      toast.error('Gagal! Tolong pilih apakah anda hadir atau tidak hadir pada bagian RSVP🙏', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
+      
+      return setIsLoading(false)
+    }
     axios.post(import.meta.env.VITE_PROD_API_BASE_URL + "/rsvp",
       {
         guest_key: guest_key,
