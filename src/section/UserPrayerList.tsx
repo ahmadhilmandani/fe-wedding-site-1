@@ -1,12 +1,24 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-// @ts-nocheck
+
 import axios from "axios";
 import { useEffect, useState } from "react";
 import PrayerListCard from "../components/PrayerListCard";
 
+interface Prayer {
+  id: number;
+  user_id: number;
+  guest_name: string;
+  guest_phone: string | null;
+  guest_num_attend: number | null;
+  guest_prayer: string;
+  created_at: string;
+  updated_at: string;
+  is_attend_marriage: boolean | null;
+  is_attend_party: boolean | null;
+}
+
 
 export default function UserPrayerList() {
-  const [prayerList, setPrayerList] = useState()
+  const [prayerList, setPrayerList] = useState<Prayer[] | undefined>()
 
   useEffect(() => {
     axios.get(import.meta.env.VITE_PROD_API_BASE_URL + "/rsvp/1"

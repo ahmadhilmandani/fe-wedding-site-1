@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 interface PrayerListType {
   children: string | Array<string | number>,
   propUserName: string,
-  propIsAttendParty: boolean,
+  propIsAttendParty: boolean | null,
   propCreatedAt: Date | string
 }
 

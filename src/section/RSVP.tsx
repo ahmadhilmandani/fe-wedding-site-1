@@ -24,6 +24,7 @@ export default function RSVP({guest_name, guest_key}: {guest_name: string, guest
         progress: undefined,
         theme: "light",
         transition: Bounce,
+        style: { fontSize: "14px", zIndex: "10000000000000000000000000000000" }
       });
       
       return setIsLoading(false)
@@ -45,6 +46,7 @@ export default function RSVP({guest_name, guest_key}: {guest_name: string, guest
         progress: undefined,
         theme: "light",
         transition: Bounce,
+        style: { fontSize: "14px", zIndex: "10000000000000000000000000000000" }
       });
     }).catch(() => {
       toast.error('Error melakukan RSVP, silahkan coba lagi!', {
@@ -57,6 +59,7 @@ export default function RSVP({guest_name, guest_key}: {guest_name: string, guest
         progress: undefined,
         theme: "light",
         transition: Bounce,
+        style: { fontSize: "14px", zIndex: "10000000000000000000000000000000" }
       });
     }).finally(() => {
       setIsLoading(false)

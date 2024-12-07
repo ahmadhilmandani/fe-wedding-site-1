@@ -55,6 +55,7 @@ function App() {
         progress: undefined,
         theme: "light",
         transition: Bounce,
+        style: { fontSize: "14px", zIndex: "10000000000000000000000000000000" }
       });
     }).catch(() => {
       toast.error('Gagal! Pastikan kunci benar dan coba lagi!🙏', {
@@ -82,7 +83,7 @@ function App() {
 
   return (
     <>
-      <ToastContainer />
+      <ToastContainer stacked className={'z-[1000000000000000000000000000000000]'} />
 
       {!guestData.data ?
         <>
