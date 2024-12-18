@@ -13,7 +13,7 @@ export default function RSVP({guest_name, guest_key}: {guest_name: string, guest
 
   function submitRSVP() {
     setIsLoading(true)
-    if (!isAttend) {
+    if (isAttend === null) {
       toast.error('Gagal! Tolong pilih apakah anda hadir atau tidak hadir pada bagian RSVP🙏', {
         position: "top-right",
         autoClose: 5000,
